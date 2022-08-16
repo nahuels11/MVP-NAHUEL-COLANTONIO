@@ -18,6 +18,9 @@ from familiares.views import lista_familiares
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('familiares/', lista_familiares)
+    path('familiares/', lista_familiares), 
+    
+
+    
     
 ]
